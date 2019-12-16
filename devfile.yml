@@ -1,0 +1,16 @@
+apiVersion: 1.0.0
+metadata:
+  name: prova
+projects:
+  - name: che_stack_tutorato_projects
+    source:
+      location: 'https://gitlab-rbl.unipv.it/coderiu/che_stack_tutorato_projects.git'
+      type: git
+      branch: master
+attributes:
+  persistVolumes: 'true'
+components:
+  - mountSources: true
+    memoryLimit: 2048Mi
+    type: dockerimage
+    image: robolab/tutorato

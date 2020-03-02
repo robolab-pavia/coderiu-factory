@@ -13,4 +13,4 @@ components:
   - mountSources: true
     memoryLimit: 2048Mi
     type: dockerimage
-    image: robolab/che-c-pvcheck-stack
+    image: robolab/che-c-pvcheck-stack:timestamps-and-other-improvements

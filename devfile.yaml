@@ -13,4 +13,4 @@ components:
   - mountSources: true
     memoryLimit: 2048Mi
     type: dockerimage
-    image: robolab/tutorato:exams
+    image: robolab/tutorato:exams-exams

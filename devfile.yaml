@@ -2,7 +2,7 @@ apiVersion: 1.0.0
 metadata:
   generateName: esame-fdi-
 projects:
-  - name: esame
+  - name: .config
     source:
       location: 'https://github.com/robolab-pavia/coderiu-factory/releases/download/project_folder/folder.zip'
       type: zip

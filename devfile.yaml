@@ -2,14 +2,15 @@ apiVersion: 1.0.0
 metadata:
   generateName: tutorato-fdi-
 projects:
-  - name: exam
+- name: tutorato
     source:
-      location: 'https://github.com/robolab-pavia/coderiu-factory/releases/download/project_folder/folder.zip'
-      type: zip
+      location: 'https://gitlab-rbl.unipv.it/coderiu/che_stack_tutorato_projects.git'
+      type: git
+      branch: master
 attributes:
   persistVolumes: 'true'
 components:
   - mountSources: true
     memoryLimit: 2048Mi
     type: dockerimage
-    image: robolab/esame-fdi
+    image: robolab/che-c-pvcheck-stack:slack

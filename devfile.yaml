@@ -2,7 +2,7 @@ apiVersion: 1.0.0
 metadata:
   generateName: tutorato-fdi-
 projects:
-- name: tutorato
+  - name: tutorato
     source:
       location: 'https://gitlab-rbl.unipv.it/coderiu/che_stack_tutorato_projects.git'
       type: git
